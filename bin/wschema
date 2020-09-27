@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require '././lib/wschema'
+puts Wschema.format_schema(ARGV[0])
